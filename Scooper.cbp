@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Scooper" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Scooper" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add directory="/usr/include/libxml2" />
+					<Add directory="/usr/include/" />
+				</Compiler>
+				<Linker>
+					<Add option="-lcurl" />
+					<Add option="-lpqxx" />
+					<Add option="-curlpp" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Scooper" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Grabber.cpp" />
+		<Unit filename="Grabber.hpp" />
+		<Unit filename="barchartUtils.cpp" />
+		<Unit filename="barchartUtils.hpp" />
+		<Unit filename="db.cpp" />
+		<Unit filename="db.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="time_support.cpp" />
+		<Unit filename="time_support.hpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

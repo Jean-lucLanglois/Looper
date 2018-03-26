@@ -1,0 +1,865 @@
+# depslib dependency file v1.0
+1521077700 source:/home/jean-luc/Sites/C++/Scooper/barchartUtils.cpp
+	<libxml/tree.h>
+	<libxml/HTMLparser.h>
+	<libxml/parser.h>
+	<libxml/xmlmemory.h>
+	"barchartUtils.hpp"
+
+1521077718 /home/jean-luc/Sites/C++/Scooper/barchartUtils.hpp
+	<stdio.h>
+	<iostream>
+	<map>
+
+1521077704 source:/home/jean-luc/Sites/C++/Scooper/db.cpp
+	<pqxx/pqxx>
+	<stdio.h>
+	<iostream>
+	"db.hpp"
+
+1521077720 /home/jean-luc/Sites/C++/Scooper/db.hpp
+
+1513081589 /usr/include/libxml2/libxml/tree.h
+	<stdio.h>
+	<limits.h>
+	<libxml/xmlversion.h>
+	<libxml/xmlstring.h>
+	<libxml/xmlregexp.h>
+	<libxml/xmlmemory.h>
+
+1515984541 /usr/include//stdio.h
+	<features.h>
+	<stddef.h>
+	<bits/types.h>
+	<libio.h>
+	<stdarg.h>
+	<bits/stdio_lim.h>
+	<bits/sys_errlist.h>
+	<getopt.h>
+	<bits/stdio.h>
+	<bits/stdio2.h>
+	<bits/stdio-ldbl.h>
+
+1515984530 /usr/include//features.h
+	<stdc-predef.h>
+	<sys/cdefs.h>
+	<gnu/stubs.h>
+
+1515984530 /usr/include//stdc-predef.h
+
+1515984541 /usr/include//libio.h
+	<_G_config.h>
+	<stdarg.h>
+	<sys/cdefs.h>
+	<shlib-compat.h>
+	<bits/libio-ldbl.h>
+
+1515984541 /usr/include//_G_config.h
+	<bits/types.h>
+	<stddef.h>
+	<wchar.h>
+	<gconv.h>
+
+1515984542 /usr/include//wchar.h
+	<features.h>
+	<stdio.h>
+	<stdarg.h>
+	<bits/wchar.h>
+	<stddef.h>
+	<wctype.h>
+	<xlocale.h>
+	<xlocale.h>
+	<xlocale.h>
+	<wctype.h>
+	<bits/wchar2.h>
+	<bits/wchar-ldbl.h>
+
+1515984544 /usr/include//wctype.h
+	<features.h>
+	<bits/types.h>
+	<wchar.h>
+	<endian.h>
+	<xlocale.h>
+
+1515984541 /usr/include//endian.h
+	<features.h>
+	<bits/endian.h>
+	<bits/byteswap.h>
+
+1515984531 /usr/include//xlocale.h
+
+1515984530 /usr/include//gconv.h
+	<features.h>
+	<wchar.h>
+	<stddef.h>
+
+1515984542 /usr/include//getopt.h
+	<ctype.h>
+
+1515984538 /usr/include//ctype.h
+	<features.h>
+	<bits/types.h>
+	<endian.h>
+	<xlocale.h>
+
+1515984530 /usr/include//limits.h
+	<features.h>
+	<bits/wordsize.h>
+	<bits/posix1_lim.h>
+	<bits/posix2_lim.h>
+	<bits/xopen_lim.h>
+
+1513081589 /usr/include/libxml2/libxml/xmlversion.h
+	<libxml/xmlexports.h>
+	<ansidecl.h>
+
+1513081589 /usr/include/libxml2/libxml/xmlexports.h
+
+1513081589 /usr/include/libxml2/libxml/xmlstring.h
+	<stdarg.h>
+	<libxml/xmlversion.h>
+
+1513081589 /usr/include/libxml2/libxml/xmlregexp.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/dict.h>
+
+1513081589 /usr/include/libxml2/libxml/dict.h
+	<limits.h>
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1513081589 /usr/include/libxml2/libxml/xmlmemory.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/threads.h>
+	<libxml/globals.h>
+
+1513081589 /usr/include/libxml2/libxml/threads.h
+	<libxml/xmlversion.h>
+	<libxml/globals.h>
+
+1513081589 /usr/include/libxml2/libxml/globals.h
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xmlerror.h>
+	<libxml/SAX.h>
+	<libxml/SAX2.h>
+	<libxml/xmlmemory.h>
+	<libxml/threads.h>
+
+1513081589 /usr/include/libxml2/libxml/parser.h
+	<stdarg.h>
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/dict.h>
+	<libxml/hash.h>
+	<libxml/valid.h>
+	<libxml/entities.h>
+	<libxml/xmlerror.h>
+	<libxml/xmlstring.h>
+	<libxml/encoding.h>
+	<libxml/xmlIO.h>
+	<libxml/globals.h>
+
+1513081589 /usr/include/libxml2/libxml/hash.h
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/dict.h>
+
+1513081589 /usr/include/libxml2/libxml/valid.h
+	<libxml/xmlversion.h>
+	<libxml/xmlerror.h>
+	<libxml/tree.h>
+	<libxml/list.h>
+	<libxml/xmlautomata.h>
+	<libxml/xmlregexp.h>
+
+1513081589 /usr/include/libxml2/libxml/xmlerror.h
+	<libxml/parser.h>
+
+1513081589 /usr/include/libxml2/libxml/list.h
+	<libxml/xmlversion.h>
+
+1513081589 /usr/include/libxml2/libxml/xmlautomata.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/xmlregexp.h>
+
+1513081589 /usr/include/libxml2/libxml/entities.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1513081589 /usr/include/libxml2/libxml/encoding.h
+	<libxml/xmlversion.h>
+	<iconv.h>
+	<unicode/ucnv.h>
+	<libxml/tree.h>
+
+1515984530 /usr/include//iconv.h
+	<features.h>
+	<stddef.h>
+
+1513081589 /usr/include/libxml2/libxml/xmlIO.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/globals.h>
+	<libxml/tree.h>
+	<libxml/parser.h>
+	<libxml/encoding.h>
+
+1513081589 /usr/include/libxml2/libxml/SAX.h
+	<stdio.h>
+	<stdlib.h>
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xlink.h>
+
+1515984540 /usr/include//stdlib.h
+	<features.h>
+	<stddef.h>
+	<bits/waitflags.h>
+	<bits/waitstatus.h>
+	<xlocale.h>
+	<sys/types.h>
+	<alloca.h>
+	<bits/stdlib-bsearch.h>
+	<bits/stdlib-float.h>
+	<bits/stdlib.h>
+	<bits/stdlib-ldbl.h>
+
+1515984540 /usr/include//alloca.h
+	<features.h>
+	<stddef.h>
+
+1513081589 /usr/include/libxml2/libxml/xlink.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1513081589 /usr/include/libxml2/libxml/SAX2.h
+	<stdio.h>
+	<stdlib.h>
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xlink.h>
+
+1513081589 /usr/include/libxml2/libxml/HTMLparser.h
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+
+1440760312 /usr/include//pqxx/pqxx
+	"pqxx/binarystring"
+	"pqxx/connection"
+	"pqxx/cursor"
+	"pqxx/errorhandler"
+	"pqxx/except"
+	"pqxx/field"
+	"pqxx/largeobject"
+	"pqxx/nontransaction"
+	"pqxx/notification"
+	"pqxx/notify-listen"
+	"pqxx/pipeline"
+	"pqxx/prepared_statement"
+	"pqxx/result"
+	"pqxx/robusttransaction"
+	"pqxx/subtransaction"
+	"pqxx/strconv"
+	"pqxx/tablereader"
+	"pqxx/tablewriter"
+	"pqxx/transaction"
+	"pqxx/transactor"
+	"pqxx/tuple"
+	"pqxx/util"
+	"pqxx/version"
+
+1440760312 /usr/include//pqxx/binarystring
+	"pqxx/binarystring.hxx"
+
+1440760312 /usr/include//pqxx/binarystring.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	<string>
+	"pqxx/result"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/compiler-public.hxx
+	<boost/smart_ptr.hpp>
+	<utility>
+	"pqxx/config-public-compiler.h"
+	<cstddef>
+	<cstdlib>
+	<iterator>
+	<cstddef>
+
+1440760312 /usr/include//pqxx/config-public-compiler.h
+
+1440760312 /usr/include//pqxx/compiler-internal-pre.hxx
+
+1440760312 /usr/include//pqxx/result
+	"pqxx/result.hxx"
+
+1440760312 /usr/include//pqxx/result.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	<ios>
+	<stdexcept>
+	"pqxx/internal/result_data.hxx"
+	"pqxx/except"
+	"pqxx/field"
+	"pqxx/tuple"
+	"pqxx/util"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/internal/result_data.hxx
+	<string>
+	"pqxx/internal/libpq-forward.hxx"
+
+1440760312 /usr/include//pqxx/internal/libpq-forward.hxx
+
+1440760312 /usr/include//pqxx/except
+	"pqxx/except.hxx"
+
+1440760312 /usr/include//pqxx/except.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	<stdexcept>
+	"pqxx/util"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/util
+	"pqxx/util.hxx"
+
+1440760312 /usr/include//pqxx/util.hxx
+	"pqxx/compiler-public.hxx"
+	<cstdio>
+	<cctype>
+	<stdexcept>
+	<string>
+	<typeinfo>
+	<vector>
+	<tr1/memory>
+	<memory>
+	"pqxx/strconv"
+	<pqxx/internal/libpq-forward.hxx>
+
+1440760312 /usr/include//pqxx/strconv
+	"pqxx/strconv.hxx"
+
+1440760312 /usr/include//pqxx/strconv.hxx
+	"pqxx/compiler-public.hxx"
+	<sstream>
+	<stdexcept>
+
+1440760312 /usr/include//pqxx/compiler-internal-post.hxx
+
+1440760312 /usr/include//pqxx/field
+	"pqxx/field.hxx"
+
+1440760312 /usr/include//pqxx/field.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	"pqxx/strconv"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/tuple
+	"pqxx/tuple.hxx"
+
+1440760312 /usr/include//pqxx/tuple.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	"pqxx/except"
+	"pqxx/field"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/connection
+	"pqxx/connection.hxx"
+
+1440760312 /usr/include//pqxx/connection.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	"pqxx/connectionpolicy"
+	"pqxx/basic_connection"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/connectionpolicy
+	"pqxx/connectionpolicy.hxx"
+
+1440760312 /usr/include//pqxx/connectionpolicy.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	<string>
+	"pqxx/internal/libpq-forward.hxx"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/basic_connection
+	"pqxx/basic_connection.hxx"
+
+1440760312 /usr/include//pqxx/basic_connection.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	<memory>
+	<string>
+	"pqxx/connection_base"
+	"pqxx/errorhandler"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/connection_base
+	"pqxx/connection_base.hxx"
+
+1440760312 /usr/include//pqxx/connection_base.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	<bitset>
+	<list>
+	<map>
+	<memory>
+	"pqxx/errorhandler"
+	"pqxx/except"
+	"pqxx/prepared_statement"
+	"pqxx/strconv"
+	"pqxx/util"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/errorhandler
+	"pqxx/errorhandler.hxx"
+
+1440760312 /usr/include//pqxx/errorhandler.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	<functional>
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/prepared_statement
+	"pqxx/prepared_statement.hxx"
+
+1440760312 /usr/include//pqxx/prepared_statement.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	"pqxx/internal/statement_parameters.hxx"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/internal/statement_parameters.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	<string>
+	<vector>
+	"pqxx/binarystring"
+	"pqxx/strconv"
+	"pqxx/util"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/cursor
+	"pqxx/cursor.hxx"
+
+1440760312 /usr/include//pqxx/cursor.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	<stdexcept>
+	<limits>
+	"pqxx/result"
+	"pqxx/transaction_base"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/transaction_base
+	"pqxx/transaction_base.hxx"
+
+1440760312 /usr/include//pqxx/transaction_base.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	"pqxx/connection_base"
+	"pqxx/isolation"
+	"pqxx/result"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/isolation
+	"pqxx/isolation.hxx"
+
+1440760312 /usr/include//pqxx/isolation.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	"pqxx/util"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/largeobject
+	"pqxx/largeobject.hxx"
+
+1440760312 /usr/include//pqxx/largeobject.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	<streambuf>
+	<streambuf.h>
+	"pqxx/dbtransaction"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/dbtransaction
+	"pqxx/dbtransaction.hxx"
+
+1440760312 /usr/include//pqxx/dbtransaction.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	"pqxx/transaction_base"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/nontransaction
+	"pqxx/nontransaction.hxx"
+
+1440760312 /usr/include//pqxx/nontransaction.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	"pqxx/connection_base"
+	"pqxx/result"
+	"pqxx/transaction_base"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/notification
+	"pqxx/notification.hxx"
+
+1440760312 /usr/include//pqxx/notification.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/notify-listen
+	"pqxx/notify-listen.hxx"
+
+1440760312 /usr/include//pqxx/notify-listen.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	"pqxx/notification"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/pipeline
+	"pqxx/pipeline.hxx"
+
+1440760312 /usr/include//pqxx/pipeline.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	<limits>
+	<map>
+	<string>
+	"pqxx/transaction_base"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/robusttransaction
+	"pqxx/robusttransaction.hxx"
+
+1440760312 /usr/include//pqxx/robusttransaction.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	"pqxx/dbtransaction"
+	"pqxx/errorhandler"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/subtransaction
+	"pqxx/subtransaction.hxx"
+
+1440760312 /usr/include//pqxx/subtransaction.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	"pqxx/dbtransaction"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/tablereader
+	"pqxx/tablereader.hxx"
+
+1440760312 /usr/include//pqxx/tablereader.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	"pqxx/result"
+	"pqxx/tablestream"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/tablestream
+	"pqxx/tablestream.hxx"
+
+1440760312 /usr/include//pqxx/tablestream.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	"pqxx/transaction_base"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/tablewriter
+	"pqxx/tablewriter.hxx"
+
+1440760312 /usr/include//pqxx/tablewriter.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	"pqxx/tablestream"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/transaction
+	"pqxx/transaction.hxx"
+
+1440760312 /usr/include//pqxx/transaction.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	"pqxx/dbtransaction"
+	"pqxx/errorhandler"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/transactor
+	"pqxx/transactor.hxx"
+
+1440760312 /usr/include//pqxx/transactor.hxx
+	"pqxx/compiler-public.hxx"
+	"pqxx/compiler-internal-pre.hxx"
+	"pqxx/connection_base"
+	"pqxx/transaction"
+	"pqxx/compiler-internal-post.hxx"
+
+1440760312 /usr/include//pqxx/version
+	"pqxx/version.hxx"
+
+1440760312 /usr/include//pqxx/version.hxx
+
+1521349783 source:/home/jean-luc/Sites/C++/Scooper/Grabber.cpp
+	<pqxx/pqxx>
+	<libxml/tree.h>
+	<libxml/HTMLparser.h>
+	<libxml/parser.h>
+	<libxml/xmlmemory.h>
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<iomanip>
+	<string>
+	<vector>
+	"Grabber.hpp"
+	"barchartUtils.hpp"
+	"db.hpp"
+	"time_support.hpp"
+
+1521077726 /home/jean-luc/Sites/C++/Scooper/Grabber.hpp
+	<string>
+	<curlpp/cURLpp.hpp>
+	<curlpp/Easy.hpp>
+	<curlpp/Options.hpp>
+
+1400368334 /usr/include//curlpp/cURLpp.hpp
+	"internal/buildconfig.h"
+	<curl/curl.h>
+	<string>
+	<cstdlib>
+
+1400368334 /usr/include//curlpp/internal/buildconfig.h
+
+1521051101 /usr/include//curl/curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1521051101 /usr/include//curl/curlver.h
+
+1521051101 /usr/include//curl/curlbuild.h
+	<windows.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<stdint.h>
+	<inttypes.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1515984540 /usr/include//stdint.h
+	<features.h>
+	<bits/wchar.h>
+	<bits/wordsize.h>
+
+1515984540 /usr/include//inttypes.h
+	<features.h>
+	<stdint.h>
+	<stddef.h>
+
+1521051101 /usr/include//curl/curlrules.h
+
+1515984542 /usr/include//time.h
+	<features.h>
+	<stddef.h>
+	<bits/time.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<xlocale.h>
+
+1521051101 /usr/include//curl/easy.h
+
+1521051101 /usr/include//curl/multi.h
+	"curl.h"
+
+1521051101 /usr/include//curl/typecheck-gcc.h
+
+1400368334 /usr/include//curlpp/Easy.hpp
+	"internal/buildconfig.h"
+	"internal/CurlHandle.hpp"
+	"internal/OptionList.hpp"
+	"Option.hpp"
+	<memory>
+	"Easy.inl"
+
+1400368334 /usr/include//curlpp/internal/CurlHandle.hpp
+	"buildconfig.h"
+	"../Exception.hpp"
+	"../Types.hpp"
+	<curl/curl.h>
+	<memory>
+	"CurlHandle.inl"
+
+1400368334 /usr/include//curlpp/Exception.hpp
+	"internal/buildconfig.h"
+	<curl/curl.h>
+	<string>
+	<stdexcept>
+
+1400368334 /usr/include//curlpp/Types.hpp
+	<boost/function.hpp>
+	<utilspp/Functors.hpp>
+
+1400368334 /usr/include//utilspp/Functors.hpp
+	"functor/Functor.hpp"
+
+1400368334 /usr/include//utilspp/functor/Functor.hpp
+	<memory>
+	"../NullType.hpp"
+	"../EmptyType.hpp"
+	"../TypeList.hpp"
+	"../TypeTrait.hpp"
+	"FunctorImpl.hpp"
+	"FunctorHandler.hpp"
+	"MemFunHandler.hpp"
+	"Binder.hpp"
+
+1400368334 /usr/include//utilspp/NullType.hpp
+
+1400368334 /usr/include//utilspp/EmptyType.hpp
+
+1400368334 /usr/include//utilspp/TypeList.hpp
+	"NullType.hpp"
+
+1400368334 /usr/include//utilspp/TypeTrait.hpp
+	"NullType.hpp"
+
+1400368334 /usr/include//utilspp/functor/FunctorImpl.hpp
+
+1400368334 /usr/include//utilspp/functor/FunctorHandler.hpp
+
+1400368334 /usr/include//utilspp/functor/MemFunHandler.hpp
+
+1400368334 /usr/include//utilspp/functor/Binder.hpp
+
+1400368334 /usr/include//curlpp/internal/CurlHandle.inl
+	"../Exception.hpp"
+
+1400368334 /usr/include//curlpp/internal/OptionList.hpp
+	"buildconfig.h"
+	"../OptionBase.hpp"
+	<map>
+
+1400368334 /usr/include//curlpp/OptionBase.hpp
+	"internal/buildconfig.h"
+	<curl/curl.h>
+
+1400368334 /usr/include//curlpp/Option.hpp
+	"internal/buildconfig.h"
+	"internal/OptionContainer.hpp"
+	"OptionBase.hpp"
+	"Option.inl"
+
+1400368334 /usr/include//curlpp/internal/OptionContainer.hpp
+	"buildconfig.h"
+	"OptionContainerType.hpp"
+	"OptionContainer.inl"
+
+1400368334 /usr/include//curlpp/internal/OptionContainerType.hpp
+	"SList.hpp"
+	"../Form.hpp"
+	"../Types.hpp"
+	<string>
+	<list>
+
+1400368334 /usr/include//curlpp/internal/SList.hpp
+	"buildconfig.h"
+	<curl/curl.h>
+	<list>
+	<string>
+
+1400368334 /usr/include//curlpp/Form.hpp
+	"internal/buildconfig.h"
+	<utilspp/clone_ptr.hpp>
+	<curl/curl.h>
+	<list>
+	<string>
+
+1400368334 /usr/include//utilspp/clone_ptr.hpp
+	<cassert>
+	<stdexcept>
+
+1400368334 /usr/include//curlpp/internal/OptionContainer.inl
+
+1400368334 /usr/include//curlpp/Option.inl
+	"internal/OptionSetter.hpp"
+	"Exception.hpp"
+	<iostream>
+
+1400368334 /usr/include//curlpp/internal/OptionSetter.hpp
+	"buildconfig.h"
+	"OptionContainerType.hpp"
+	"CurlHandle.hpp"
+	"../Types.hpp"
+	"OptionSetter.inl"
+
+1400368334 /usr/include//curlpp/internal/OptionSetter.inl
+	<string>
+
+1400368334 /usr/include//curlpp/Easy.inl
+
+1400368334 /usr/include//curlpp/Options.hpp
+	"Option.hpp"
+	<iostream>
+
+1521077686 /home/jean-luc/Sites/C++/Scooper/time_support.hpp
+	<stdio.h>
+	<string>
+
+1521077709 source:/home/jean-luc/Sites/C++/Scooper/main.cpp
+	<string>
+	<iostream>
+	<pqxx/pqxx>
+	<unistd.h>
+	<algorithm>
+	<thread>
+	<chrono>
+	<ctime>
+	"db.hpp"
+	"Grabber.hpp"
+	"time_support.hpp"
+
+1515984542 /usr/include//unistd.h
+	<features.h>
+	<bits/posix_opt.h>
+	<bits/environments.h>
+	<bits/types.h>
+	<stddef.h>
+	<bits/confname.h>
+	<getopt.h>
+	<bits/unistd.h>
+
+1521077712 source:/home/jean-luc/Sites/C++/Scooper/time_support.cpp
+	"time_support.hpp"
+
