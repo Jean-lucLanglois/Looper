@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Scooper" />
+		<Option title="Looper" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
@@ -22,6 +22,9 @@
 					<Add option="-lcurl" />
 					<Add option="-lpqxx" />
 					<Add option="-lcurlpp" />
+					<Add option="-lxml2" />
+					<Add directory="/usr/include" />
+					<Add directory="/usr/local/lib" />
 				</Linker>
 			</Target>
 			<Target title="Release">
