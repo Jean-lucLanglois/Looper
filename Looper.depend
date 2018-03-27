@@ -1,31 +1,15 @@
 # depslib dependency file v1.0
-1521077700 source:/home/jean-luc/Sites/C++/Scooper/barchartUtils.cpp
+1522098610 source:/home/jean-luc/dev/looper/barchartUtils.cpp
 	<libxml/tree.h>
 	<libxml/HTMLparser.h>
 	<libxml/parser.h>
 	<libxml/xmlmemory.h>
 	"barchartUtils.hpp"
 
-1521077718 /home/jean-luc/Sites/C++/Scooper/barchartUtils.hpp
+1522098610 /home/jean-luc/dev/looper/barchartUtils.hpp
 	<stdio.h>
 	<iostream>
 	<map>
-
-1521077704 source:/home/jean-luc/Sites/C++/Scooper/db.cpp
-	<pqxx/pqxx>
-	<stdio.h>
-	<iostream>
-	"db.hpp"
-
-1521077720 /home/jean-luc/Sites/C++/Scooper/db.hpp
-
-1513081589 /usr/include/libxml2/libxml/tree.h
-	<stdio.h>
-	<limits.h>
-	<libxml/xmlversion.h>
-	<libxml/xmlstring.h>
-	<libxml/xmlregexp.h>
-	<libxml/xmlmemory.h>
 
 1515984541 /usr/include//stdio.h
 	<features.h>
@@ -102,118 +86,30 @@
 	<endian.h>
 	<xlocale.h>
 
-1515984530 /usr/include//limits.h
-	<features.h>
-	<bits/wordsize.h>
-	<bits/posix1_lim.h>
-	<bits/posix2_lim.h>
-	<bits/xopen_lim.h>
-
-1513081589 /usr/include/libxml2/libxml/xmlversion.h
-	<libxml/xmlexports.h>
-	<ansidecl.h>
-
-1513081589 /usr/include/libxml2/libxml/xmlexports.h
-
-1513081589 /usr/include/libxml2/libxml/xmlstring.h
-	<stdarg.h>
-	<libxml/xmlversion.h>
-
-1513081589 /usr/include/libxml2/libxml/xmlregexp.h
-	<libxml/xmlversion.h>
-	<libxml/tree.h>
-	<libxml/dict.h>
-
-1513081589 /usr/include/libxml2/libxml/dict.h
-	<limits.h>
-	<libxml/xmlversion.h>
-	<libxml/tree.h>
-
-1513081589 /usr/include/libxml2/libxml/xmlmemory.h
+1522098610 source:/home/jean-luc/dev/looper/db.cpp
+	<pqxx/pqxx>
 	<stdio.h>
-	<libxml/xmlversion.h>
-	<libxml/threads.h>
-	<libxml/globals.h>
+	<iostream>
+	"db.hpp"
 
-1513081589 /usr/include/libxml2/libxml/threads.h
-	<libxml/xmlversion.h>
-	<libxml/globals.h>
+1522098610 /home/jean-luc/dev/looper/db.hpp
 
-1513081589 /usr/include/libxml2/libxml/globals.h
-	<libxml/xmlversion.h>
+1522098610 source:/home/jean-luc/dev/looper/Grabber.cpp
+	<pqxx/pqxx>
+	<libxml/tree.h>
+	<libxml/HTMLparser.h>
 	<libxml/parser.h>
-	<libxml/xmlerror.h>
-	<libxml/SAX.h>
-	<libxml/SAX2.h>
 	<libxml/xmlmemory.h>
-	<libxml/threads.h>
-
-1513081589 /usr/include/libxml2/libxml/parser.h
-	<stdarg.h>
-	<libxml/xmlversion.h>
-	<libxml/tree.h>
-	<libxml/dict.h>
-	<libxml/hash.h>
-	<libxml/valid.h>
-	<libxml/entities.h>
-	<libxml/xmlerror.h>
-	<libxml/xmlstring.h>
-	<libxml/encoding.h>
-	<libxml/xmlIO.h>
-	<libxml/globals.h>
-
-1513081589 /usr/include/libxml2/libxml/hash.h
-	<libxml/xmlversion.h>
-	<libxml/parser.h>
-	<libxml/dict.h>
-
-1513081589 /usr/include/libxml2/libxml/valid.h
-	<libxml/xmlversion.h>
-	<libxml/xmlerror.h>
-	<libxml/tree.h>
-	<libxml/list.h>
-	<libxml/xmlautomata.h>
-	<libxml/xmlregexp.h>
-
-1513081589 /usr/include/libxml2/libxml/xmlerror.h
-	<libxml/parser.h>
-
-1513081589 /usr/include/libxml2/libxml/list.h
-	<libxml/xmlversion.h>
-
-1513081589 /usr/include/libxml2/libxml/xmlautomata.h
-	<libxml/xmlversion.h>
-	<libxml/tree.h>
-	<libxml/xmlregexp.h>
-
-1513081589 /usr/include/libxml2/libxml/entities.h
-	<libxml/xmlversion.h>
-	<libxml/tree.h>
-
-1513081589 /usr/include/libxml2/libxml/encoding.h
-	<libxml/xmlversion.h>
-	<iconv.h>
-	<unicode/ucnv.h>
-	<libxml/tree.h>
-
-1515984530 /usr/include//iconv.h
-	<features.h>
-	<stddef.h>
-
-1513081589 /usr/include/libxml2/libxml/xmlIO.h
-	<stdio.h>
-	<libxml/xmlversion.h>
-	<libxml/globals.h>
-	<libxml/tree.h>
-	<libxml/parser.h>
-	<libxml/encoding.h>
-
-1513081589 /usr/include/libxml2/libxml/SAX.h
 	<stdio.h>
 	<stdlib.h>
-	<libxml/xmlversion.h>
-	<libxml/parser.h>
-	<libxml/xlink.h>
+	<iostream>
+	<iomanip>
+	<string>
+	<vector>
+	"Grabber.hpp"
+	"barchartUtils.hpp"
+	"db.hpp"
+	"time_support.hpp"
 
 1515984540 /usr/include//stdlib.h
 	<features.h>
@@ -232,20 +128,41 @@
 	<features.h>
 	<stddef.h>
 
-1513081589 /usr/include/libxml2/libxml/xlink.h
-	<libxml/xmlversion.h>
-	<libxml/tree.h>
+1522098610 /home/jean-luc/dev/looper/Grabber.hpp
+	<string>
+	<curlpp/cURLpp.hpp>
+	<curlpp/Easy.hpp>
+	<curlpp/Options.hpp>
 
-1513081589 /usr/include/libxml2/libxml/SAX2.h
+1522098610 /home/jean-luc/dev/looper/time_support.hpp
 	<stdio.h>
-	<stdlib.h>
-	<libxml/xmlversion.h>
-	<libxml/parser.h>
-	<libxml/xlink.h>
+	<string>
 
-1513081589 /usr/include/libxml2/libxml/HTMLparser.h
-	<libxml/xmlversion.h>
-	<libxml/parser.h>
+1522098610 source:/home/jean-luc/dev/looper/main.cpp
+	<string>
+	<iostream>
+	<pqxx/pqxx>
+	<unistd.h>
+	<algorithm>
+	<thread>
+	<chrono>
+	<ctime>
+	"db.hpp"
+	"Grabber.hpp"
+	"time_support.hpp"
+
+1515984542 /usr/include//unistd.h
+	<features.h>
+	<bits/posix_opt.h>
+	<bits/environments.h>
+	<bits/types.h>
+	<stddef.h>
+	<bits/confname.h>
+	<getopt.h>
+	<bits/unistd.h>
+
+1522098610 source:/home/jean-luc/dev/looper/time_support.cpp
+	"time_support.hpp"
 
 1440760312 /usr/include//pqxx/pqxx
 	"pqxx/binarystring"
@@ -613,29 +530,6 @@
 
 1440760312 /usr/include//pqxx/version.hxx
 
-1521349783 source:/home/jean-luc/Sites/C++/Scooper/Grabber.cpp
-	<pqxx/pqxx>
-	<libxml/tree.h>
-	<libxml/HTMLparser.h>
-	<libxml/parser.h>
-	<libxml/xmlmemory.h>
-	<stdio.h>
-	<stdlib.h>
-	<iostream>
-	<iomanip>
-	<string>
-	<vector>
-	"Grabber.hpp"
-	"barchartUtils.hpp"
-	"db.hpp"
-	"time_support.hpp"
-
-1521077726 /home/jean-luc/Sites/C++/Scooper/Grabber.hpp
-	<string>
-	<curlpp/cURLpp.hpp>
-	<curlpp/Easy.hpp>
-	<curlpp/Options.hpp>
-
 1400368334 /usr/include//curlpp/cURLpp.hpp
 	"internal/buildconfig.h"
 	<curl/curl.h>
@@ -686,6 +580,13 @@
 	<stddef.h>
 
 1521051101 /usr/include//curl/curlrules.h
+
+1515984530 /usr/include//limits.h
+	<features.h>
+	<bits/wordsize.h>
+	<bits/posix1_lim.h>
+	<bits/posix2_lim.h>
+	<bits/xopen_lim.h>
 
 1515984542 /usr/include//time.h
 	<features.h>
@@ -833,96 +734,132 @@
 	"Option.hpp"
 	<iostream>
 
-1521077686 /home/jean-luc/Sites/C++/Scooper/time_support.hpp
+1513081589 /usr/include/libxml2/libxml/tree.h
 	<stdio.h>
-	<string>
+	<limits.h>
+	<libxml/xmlversion.h>
+	<libxml/xmlstring.h>
+	<libxml/xmlregexp.h>
+	<libxml/xmlmemory.h>
 
-1521077709 source:/home/jean-luc/Sites/C++/Scooper/main.cpp
-	<string>
-	<iostream>
-	<pqxx/pqxx>
-	<unistd.h>
-	<algorithm>
-	<thread>
-	<chrono>
-	<ctime>
-	"db.hpp"
-	"Grabber.hpp"
-	"time_support.hpp"
+1513081589 /usr/include/libxml2/libxml/xmlversion.h
+	<libxml/xmlexports.h>
+	<ansidecl.h>
 
-1515984542 /usr/include//unistd.h
+1513081589 /usr/include/libxml2/libxml/xmlexports.h
+
+1513081589 /usr/include/libxml2/libxml/xmlstring.h
+	<stdarg.h>
+	<libxml/xmlversion.h>
+
+1513081589 /usr/include/libxml2/libxml/xmlregexp.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/dict.h>
+
+1513081589 /usr/include/libxml2/libxml/dict.h
+	<limits.h>
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1513081589 /usr/include/libxml2/libxml/xmlmemory.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/threads.h>
+	<libxml/globals.h>
+
+1513081589 /usr/include/libxml2/libxml/threads.h
+	<libxml/xmlversion.h>
+	<libxml/globals.h>
+
+1513081589 /usr/include/libxml2/libxml/globals.h
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xmlerror.h>
+	<libxml/SAX.h>
+	<libxml/SAX2.h>
+	<libxml/xmlmemory.h>
+	<libxml/threads.h>
+
+1513081589 /usr/include/libxml2/libxml/parser.h
+	<stdarg.h>
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/dict.h>
+	<libxml/hash.h>
+	<libxml/valid.h>
+	<libxml/entities.h>
+	<libxml/xmlerror.h>
+	<libxml/xmlstring.h>
+	<libxml/encoding.h>
+	<libxml/xmlIO.h>
+	<libxml/globals.h>
+
+1513081589 /usr/include/libxml2/libxml/hash.h
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/dict.h>
+
+1513081589 /usr/include/libxml2/libxml/valid.h
+	<libxml/xmlversion.h>
+	<libxml/xmlerror.h>
+	<libxml/tree.h>
+	<libxml/list.h>
+	<libxml/xmlautomata.h>
+	<libxml/xmlregexp.h>
+
+1513081589 /usr/include/libxml2/libxml/xmlerror.h
+	<libxml/parser.h>
+
+1513081589 /usr/include/libxml2/libxml/list.h
+	<libxml/xmlversion.h>
+
+1513081589 /usr/include/libxml2/libxml/xmlautomata.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/xmlregexp.h>
+
+1513081589 /usr/include/libxml2/libxml/entities.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1513081589 /usr/include/libxml2/libxml/encoding.h
+	<libxml/xmlversion.h>
+	<iconv.h>
+	<unicode/ucnv.h>
+	<libxml/tree.h>
+
+1515984530 /usr/include//iconv.h
 	<features.h>
-	<bits/posix_opt.h>
-	<bits/environments.h>
-	<bits/types.h>
 	<stddef.h>
-	<bits/confname.h>
-	<getopt.h>
-	<bits/unistd.h>
 
-1521077712 source:/home/jean-luc/Sites/C++/Scooper/time_support.cpp
-	"time_support.hpp"
-
-1522098610 source:/home/jean-luc/dev/looper/barchartUtils.cpp
-	<libxml/tree.h>
-	<libxml/HTMLparser.h>
-	<libxml/parser.h>
-	<libxml/xmlmemory.h>
-	"barchartUtils.hpp"
-
-1522098610 /home/jean-luc/dev/looper/barchartUtils.hpp
+1513081589 /usr/include/libxml2/libxml/xmlIO.h
 	<stdio.h>
-	<iostream>
-	<map>
-
-1522098610 source:/home/jean-luc/dev/looper/db.cpp
-	<pqxx/pqxx>
-	<stdio.h>
-	<iostream>
-	"db.hpp"
-
-1522098610 /home/jean-luc/dev/looper/db.hpp
-
-1522098610 source:/home/jean-luc/dev/looper/Grabber.cpp
-	<pqxx/pqxx>
+	<libxml/xmlversion.h>
+	<libxml/globals.h>
 	<libxml/tree.h>
-	<libxml/HTMLparser.h>
 	<libxml/parser.h>
-	<libxml/xmlmemory.h>
+	<libxml/encoding.h>
+
+1513081589 /usr/include/libxml2/libxml/SAX.h
 	<stdio.h>
 	<stdlib.h>
-	<iostream>
-	<iomanip>
-	<string>
-	<vector>
-	"Grabber.hpp"
-	"barchartUtils.hpp"
-	"db.hpp"
-	"time_support.hpp"
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xlink.h>
 
-1522098610 /home/jean-luc/dev/looper/Grabber.hpp
-	<string>
-	<curlpp/cURLpp.hpp>
-	<curlpp/Easy.hpp>
-	<curlpp/Options.hpp>
+1513081589 /usr/include/libxml2/libxml/xlink.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
 
-1522098610 /home/jean-luc/dev/looper/time_support.hpp
+1513081589 /usr/include/libxml2/libxml/SAX2.h
 	<stdio.h>
-	<string>
+	<stdlib.h>
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xlink.h>
 
-1522098610 source:/home/jean-luc/dev/looper/main.cpp
-	<string>
-	<iostream>
-	<pqxx/pqxx>
-	<unistd.h>
-	<algorithm>
-	<thread>
-	<chrono>
-	<ctime>
-	"db.hpp"
-	"Grabber.hpp"
-	"time_support.hpp"
-
-1522098610 source:/home/jean-luc/dev/looper/time_support.cpp
-	"time_support.hpp"
+1513081589 /usr/include/libxml2/libxml/HTMLparser.h
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
 

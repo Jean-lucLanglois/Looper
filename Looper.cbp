@@ -21,7 +21,7 @@
 				<Linker>
 					<Add option="-lcurl" />
 					<Add option="-lpqxx" />
-					<Add option="-curlpp" />
+					<Add option="-lcurlpp" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -43,6 +43,7 @@
 		</Compiler>
 		<Unit filename="Grabber.cpp" />
 		<Unit filename="Grabber.hpp" />
+		<Unit filename="README" />
 		<Unit filename="barchartUtils.cpp" />
 		<Unit filename="barchartUtils.hpp" />
 		<Unit filename="db.cpp" />
