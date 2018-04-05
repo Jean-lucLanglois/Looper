@@ -21,7 +21,8 @@ double price_threshold = 0.000;
 bool server_started()
 {
     // Establish DB Connection
-    pqxx::connection c{"dbname=instigator user=jean-luc password=ju_vx014_01"};
+    // pqxx::connection c{"dbname=instigator user=jean-luc password=ju_vx014_01"};
+    pqxx::connection c{"user=instigator_app  host=jeanluc-db.c0hxc3wgxzra.us-east-1.rds.amazonaws.com  password=zfszsT38ED  dbname=instigator"};
     pqxx::work txn{c};
 
     pqxx::result r = txn.exec("SELECT engine_status FROM app_preferences");
@@ -39,7 +40,8 @@ bool server_started()
 pqxx::result query_stocks()
 {
     // Establish DB Connection
-    pqxx::connection c{"dbname=instigator user=jean-luc password=ju_vx014_01"};
+    //pqxx::connection c{"dbname=instigator user=jean-luc password=ju_vx014_01"};
+    pqxx::connection c{"user=instigator_app  host=jeanluc-db.c0hxc3wgxzra.us-east-1.rds.amazonaws.com  password=zfszsT38ED  dbname=instigator"};
     pqxx::work txn{c};
 
     std::cout << "Pulling stock names from postgresql " << std::endl;
@@ -60,7 +62,8 @@ pqxx::result query_stocks()
 bool insert_digger_stock(std::string sql)
 {
     // Establish DB Connection
-    pqxx::connection c{"dbname=instigator user=jean-luc password=ju_vx014_01"};
+    //pqxx::connection c{"dbname=instigator user=jean-luc password=ju_vx014_01"};
+    pqxx::connection c{"user=instigator_app  host=jeanluc-db.c0hxc3wgxzra.us-east-1.rds.amazonaws.com  password=zfszsT38ED  dbname=instigator"};
     pqxx::work txn{c};
 
     pqxx::result r = txn.exec(sql);
